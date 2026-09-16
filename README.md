@@ -1,4 +1,3 @@
-````markdown
 # Background-Aware Expression Agent
 
 A role-aware, document-grounded RAG system that explains the same project differently based on the user's background, stakeholder role, skill level, and communication needs.
@@ -60,7 +59,7 @@ ExpressionPlan construction
 Role-aware rewriting
         ↓
 Final answer + citations + debug trace
-````
+```
 
 ## Project Structure
 
@@ -203,8 +202,8 @@ At inference time, the system builds an `ExpressionPlan` that controls:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/CindyGao8/Background_Aware_Expression_Agent.git
-cd Background_Aware_Expression_Agent
+git clone https://github.com/Chi123Zhang/Background-Aware-Expression-Agent.git
+cd Background-Aware-Expression-Agent
 ```
 
 ### 2. Create a virtual environment
@@ -417,6 +416,3 @@ The main contribution of this project is the separation between factual groundin
 
 > Project RAG controls what the system can claim.
 > The expression layer controls how the answer is communicated.
-
-```
-```
